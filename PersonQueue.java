@@ -13,7 +13,7 @@ public class PersonQueue {
 	
 	private static final int DEFAULT_SIZE = 5;
 	
-	ArrayQueue<Person> myQ = new ArrayQueue<Person>();
+	ArrayQueue<Person> myQ;
 	
 	
 	public PersonQueue() {
